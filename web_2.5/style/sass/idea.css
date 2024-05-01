@@ -1,0 +1,21 @@
+.idea {
+  margin-bottom: 80px;
+}
+.idea__header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+.idea__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.idea__element img {
+  margin-bottom: 24px;
+}
+.idea__element h4 {
+  margin-bottom: 24px;
+}/*# sourceMappingURL=idea.css.map */
