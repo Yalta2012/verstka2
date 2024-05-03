@@ -1,0 +1,44 @@
+@import "base.scss";
+footer{
+    color: $color_gray;
+    
+    .footer__line{
+        height: 1px;
+        width: 100%;
+        background-color: #EAEAEA;
+    }
+    .footer__group{
+        margin-top: 33px;
+        margin-bottom: 33px;
+
+    }
+    .footer__fond-logo{
+        height: 71px;
+        
+    }
+    li{
+        color: $color_gray;
+    }
+    img{
+        height: 53px;
+    }
+    .footer__element{
+        display: flex;
+        
+    }
+
+    .just-right{
+        justify-content: right;
+        text-align: right;
+    }
+    @media screen and (max-width: $sm) {
+        .footer__element{
+            justify-content: center;
+            text-align: center;
+            margin: 10px;
+
+        }
+
+
+    }
+}

@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/*сброс стилей*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3F3A51;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Rubik", "sans-serif";
+  line-height: 1.5;
+  color: #3F3A51;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+@media screen and (max-width: 425px) {
+  h2 {
+    font-size: 27px;
+  }
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+@media screen and (max-width: 425px) {
+  h3 {
+    font-size: 27px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lesson-button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  background-color: #4047E2;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.demo-button {
+  width: 225px;
+  height: 50px;
+  border-color: #4047E2;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #4047E2;
+}
+
+.class {
+  background-color: #dfe1ff;
+  padding-bottom: 86px;
+}
+@media screen and (max-width: 576px) {
+  .class {
+    background-color: #fff;
+  }
+}
+@media screen and (min-width: 576px) {
+  .class {
+    padding-top: 73px;
+  }
+}
+.class .class__content {
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .class .class__content h2 {
+    margin-bottom: 0px;
+  }
+}
+.class .class__content .class__card {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+@media screen and (max-width: 576px) {
+  .class .class__content .class__card {
+    margin-top: 10px;
+    box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+  }
+}
+.class .class__content .class__card img {
+  border-radius: 10px;
+  object-fit: contain;
+  width: 100%;
+}/*# sourceMappingURL=class.css.map */
