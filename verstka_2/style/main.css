@@ -309,8 +309,8 @@ body.hidden, html.hidden {
   }
   .navigation .navigation__wrap .navigation__menu .navigation__list {
     display: block;
-    margin-bottom: 60%;
-    margin-top: 20%;
+    margin-bottom: 70%;
+    margin-top: 30%;
     margin-right: 10px;
   }
   .navigation .navigation__wrap .navigation__menu .navigation__list li {
@@ -481,6 +481,7 @@ ul {
 .promo .promo__content .promo__cover img {
   object-fit: contain;
   height: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 

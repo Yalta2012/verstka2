@@ -28,7 +28,7 @@
             transition: transform 0.2s;
             background-color: #fff;
             
-            &.open {
+            &.open {    
                 transform: translateX(-95%);
                 position: block;
                 height: 100vh;
@@ -117,8 +117,8 @@
                 right: -400px;
                 .navigation__list {
                     display: block;
-                    margin-bottom: 60%;
-                    margin-top: 20%;
+                    margin-bottom: 70%;
+                    margin-top: 30%;
                     margin-right: 10px;
                     li {
                         display: block;
